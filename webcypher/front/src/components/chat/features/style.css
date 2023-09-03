@@ -1,0 +1,128 @@
+:root {
+    --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    --msg-bg: #fff;
+    --border: 2px solid #ddd;
+    --left-msg-bg: #ececec;
+    --right-msg-bg: #579ffb;
+}
+
+/* Message container */
+.msg {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    max-width: 867px;
+    margin: 10px;
+    height: 600px;
+    border: var(--border);
+    border-radius: 5px;
+    background: var(--msg-bg);
+    box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+}
+
+.msg-buble-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    max-width: 867px;
+    margin: 10px 10px;
+    height: calc(100% - 50px);
+    background: var(--msg-bg);
+}
+
+.msg-chat {
+    flex: 1;
+    overflow-y: auto;
+    max-height: 600px;
+    padding: 10px;
+    overflow: scroll;
+    word-wrap: break-word;
+}
+
+.msg-chat::-webkit-scrollbar {
+    width: 6px;
+}
+
+.msg-chat::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.msg-chat::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+}
+
+.msg-column {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: auto;
+    max-height: fit-content;
+    padding: 10px 20px 10px 20px
+}
+
+.msg-column::-webkit-scrollbar {
+    display: none;
+}
+
+.msg-bubble {
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    background: var(--left-msg-bg);
+}
+
+.left-msg .msg-bubble {
+    border-bottom-left-radius: 0;
+    color: black;
+}
+
+.left-msg {
+    flex-direction: initial;
+}
+
+.right-msg .msg-bubble {
+    background: var(--right-msg-bg);
+    color: #fff;
+    border-bottom-right-radius: 0;
+}
+
+.right-msg {
+    flex-direction: row-reverse;
+}
+
+.msg-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.msg-info-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.msg-info-time {
+    font-size: 0.85em;
+}
+
+/* SendMessageForm */
+
+.footer-form {
+    display: flex;
+    padding: 10px;
+    border-top: var(--border);
+    background: #eee;
+}
+
+.footer-form * {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+.footer-form .input-group {
+    flex: 1;
+    width: -webkit-fill-available !important;
+    background: #ddd;
+}

@@ -1,0 +1,101 @@
+/* Conversation Bubble */
+
+.bubble-notif {
+    color: #fff;
+    background-color: #f5424e;
+    font-size: 11px;
+    padding: 3px 10px;
+    margin: -5px 0px 0px 10px;
+    border-radius: 10px;
+}
+
+
+/* Message container */
+:root {
+    --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    --msger-bg: #fff;
+    --border: 2px solid #ddd;
+    --left-msg-bg: #ececec;
+    --right-msg-bg: #579ffb;
+}
+
+.msg-column {
+    height: 85vh;
+    overflow: auto;
+    padding: 10px 10px 10px 0px;
+    max-height: fit-content;
+}
+
+.msg {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.msg:last-of-type {
+    margin: 0;
+}
+
+.msg-bubble {
+    max-width: 450px;
+    padding: 15px;
+    border-radius: 15px;
+    background: var(--left-msg-bg);
+}
+
+.msg-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.msg-info-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.msg-info-time {
+    font-size: 0.85em;
+}
+
+.left-msg .msg-bubble {
+    border-bottom-left-radius: 0;
+    color: black;
+    word-wrap: break-word;
+}
+
+.right-msg {
+    flex-direction: row-reverse;
+}
+
+.right-msg .msg-bubble {
+    background: var(--right-msg-bg);
+    color: #fff;
+    border-bottom-right-radius: 0;
+    word-wrap: break-word;
+}
+
+/* Send message */
+
+.msg-inputarea {
+    display: flex;
+    padding: 10px;
+    border-top: #271932;
+    background: #271932;
+}
+
+.msg-inputarea * {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+.msg-input {
+    flex: 1;
+    width: -webkit-fill-available !important;
+    background: #211625;
+    color: white;
+}

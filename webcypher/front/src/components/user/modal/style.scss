@@ -1,0 +1,30 @@
+.modal__backdrop {
+    background: rgb(33 22 37 / 78%);
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    z-index: 1200;
+}
+
+.modal__container {
+    background: rgb(23 11 27);
+    border-radius: 10px;
+    max-width: 100%;
+    margin-right: auto;
+    padding: 3%;
+    margin-left: auto;
+    width: fit-content;
+    min-width: 45%;
+    height: auto;
+
+}
+.contain {
+    background: rgba(205, 151, 224, 0.78);
+
+}

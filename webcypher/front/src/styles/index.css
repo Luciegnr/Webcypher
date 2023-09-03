@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.d-flex {
+  display: flex;
+}
+/* placement */
+.center {
+  text-align: center;
+}
+
+.center2 {
+  text-align: -webkit-center !important;
+}
+
+.left {
+  text-align: left;
+}
+
+.left2 {
+  text-align: -webkit-left !important;
+}
+
+.left3 {
+  float: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.right2 {
+  text-align: -webkit-right !important;
+}
+
+.right3 {
+  float: right;
+}
+
+/* color */
+.white {
+  color: white;
+}
+
+/* margin */
+.marginAuto {
+  margin: auto;
+}
+
+.marginX {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marginY {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mta {
+  margin-top: auto;
+}
+
+.mba {
+  margin-bottom: auto;
+}
+
+.mt3 {
+  margin-top: 3%;
+}
+
+.mb3 {
+  margin-bottom: 3%;
+}
+
+.mr3 {
+  margin-right: 3%;
+}
+
+.ml3 {
+  margin-left: 3%;
+}
+
+.mt4 {
+  margin-top: 4%;
+}
+
+.mb4 {
+  margin-bottom: 4%;
+}
+
+.mr4 {
+  margin-right: 4%;
+}
+
+.ml4 {
+  margin-left: 4%;
+}
+
+.mt5 {
+  margin-top: 5%;
+  ;
+}
+
+.mb5 {
+  margin-bottom: 5%;
+  ;
+}
+
+.ml5 {
+  margin-left: 5%;
+  ;
+}
+
+.mr5 {
+  margin-right: 5%;
+  ;
+}
+
+.mt10 {
+  margin-top: 10%;
+}
+
+.mb10 {
+  margin-bottom: 10%;
+}
+
+.ml10 {
+  margin-left: 10%;
+}
+
+.mr10 {
+  margin-right: 10%;
+}
+
+.mt15 {
+  margin-top: 15%;
+}
+
+.mb15 {
+  margin-bottom: 15%;
+}
+
+.ml15 {
+  margin-left: 15%;
+}
+
+.mr15 {
+  margin-right: 15%;
+}
+
+.mt20 {
+  margin-top: 20%;
+}
+
+.mb20 {
+  margin-bottom: 20%;
+}
+
+.ml20 {
+  margin-left: 20%;
+}
+
+.mr20 {
+  margin-right: 20%;
+}
+
+.mt30 {
+  margin-top: 30%;
+}
+
+.mb30 {
+  margin-bottom: 30%;
+}
+
+.ml30 {
+  margin-left: 30%;
+}
+
+.mr30 {
+  margin-right: 30%;
+}
+
+.mt40 {
+  margin-top: 40%;
+}
+
+.mb40 {
+  margin-bottom: 40%;
+}
+
+.ml40 {
+  margin-left: 40%;
+}
+
+.mr40 {
+  margin-right: 40%;
+}
+
+.mt50 {
+  margin-top: 50%;
+}
+
+.mb50 {
+  margin-bottom: 50%;
+}
+
+.ml50 {
+  margin-left: 50%;
+}
+
+.mr50 {
+  margin-right: 50%;
+}
+
+.mt60 {
+  margin-top: 60%;
+}
+
+.mb60 {
+  margin-bottom: 60%;
+}
+
+.ml60 {
+  margin-left: 60%;
+}
+
+.mr60 {
+  margin-right: 60%;
+}

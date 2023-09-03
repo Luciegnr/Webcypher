@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.container-footer {
+  margin-right: 150px;
+}
+
+.container-footer .content-footer {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.container-footer .content-footer .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-footer .content-footer p:first-child:not(.flex p:first-child) {
+  color: white;
+  font-size: 22px;
+}
+
+.container-footer .content-footer p:not(.col, .column p:first-child) {
+  color: rgb(136, 136, 136);
+  margin-bottom: 10px;
+}
+
+.container-footer .content-footer .col:first-child {
+  gap: 25px;
+}
+
+.container-footer .content-footer .col:first-child .flex {
+  display: flex;
+  gap: 50px;
+}
+
+.container-footer .content-footer .col:first-child .flex .col-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-footer .content-footer .col:first-child .flex .col-info p {
+  font-size: 14px;
+}
+
+.container-footer .content-footer .col:first-child .flex .col-info span {
+  color: white;
+  font-size: 17px;
+}
+
+.container-footer .content-footer .col .column:first-child {
+  margin-right: 50px;
+}
+
+.container-footer .content-footer .col .column p:first-child {
+  margin-bottom: 25px;
+}
+
+.container-footer .content-footer .col .column p:not(p:first-child) {
+  margin-bottom: 12px;
+}
+
+.container-footer .content-footer .col:last-child {
+  gap: 15px;
+}
+
+.container-footer .content-footer .col:last-child .social {
+  display: flex;
+  gap: 20px;
+}
+
+.container-footer .content-footer .col:last-child .social img {
+  width: 40px;
+}
+
+.content-foot {
+  background-color: rgb(43, 43, 43);
+}
+
+.content-foot .foot-text {
+  padding: 25px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-foot .container-footer p {
+  color: rgb(136, 136, 136);
+}
+
+.content-foot .container-footer p span {
+  color: white;
+  font-weight: bold;
+}
+
+.content-foot .container-footer {
+  display: flex;
+  gap: 20px;
+}
+
+.content-foot .container-footer img {
+  width: 70px;
+  height: 40px;
+  object-fit: contain;
+  background-color: white;
+  padding: 10px 5px;
+}
+
+.container-footer .content-footer .col .column a {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}

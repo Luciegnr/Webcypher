@@ -1,0 +1,12 @@
+/* Player */
+
+.hide-player>div {
+    height: 0px !important;
+    width: 0px !important;
+}
+
+.show-player>div {
+    width: auto !important;
+    height: 30vw !important;
+}
+

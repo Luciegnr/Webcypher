@@ -1,0 +1,101 @@
+.avatar {
+    border: 10px solid #3f3f46;
+}
+
+.button_avatar {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    float: right;
+    padding: 6px 16px;
+    background-color: #4A1B5F;
+
+    &:hover {
+        background-color: #4A1B5F;
+    }
+}
+
+.editor_bar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 9999px;
+    align-items: center;
+    display: flex;
+    background: #1A1A1A;
+    color: #fff;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.bulle {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bulle_double {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.bulle-detail-color {
+    display: flex;
+    margin-bottom: auto;
+    flex-flow: column;
+
+    .select_icon {
+        width: 0.9rem;
+        height: 0.9rem;
+        margin-bottom: auto;
+        margin-right: 0.5rem;
+    }
+
+    .round_color {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+}
+
+.round {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+

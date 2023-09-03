@@ -1,0 +1,306 @@
+body {
+  background-color: #1b1220;
+  color: white;
+}
+
+hr {
+  margin-top: 2%;
+  height: 1px;
+  border-width: 0;
+  color: gray !important;
+  background-color: #8c8b8b !important;
+}
+
+h4 {
+  font-weight: 200 !important;
+  font-family: "apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Oxygen" !important;
+}
+
+.banner {
+  background-image: url(https://res.cloudinary.com/dxpiafcht/image/upload/v1670316935/wepik-photo-mode-2022116-95033_nebjy6.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  min-height: 550px;
+}
+
+.avatar {
+  width: 156px;
+  height: 156px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3%;
+}
+
+.custom_field input {
+  width: 100%;
+  height: 55px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  color: white;
+  font-weight: 900;
+  transition: 0.3s ease-out;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  display: block;
+  margin-left: 5px;
+  margin-bottom: 3%;
+
+  &.left {
+    text-align: left;
+  }
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #4f4a55 !important;
+  border-width: 2.7px;
+  border-radius: 1rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1260px) {
+  .form {
+    column-gap: 9rem !important;
+  }
+
+  .avatar {
+    width: 145px;
+    height: 145px;
+    margin-top: -3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .form {
+    column-gap: 5rem !important;
+  }
+
+  .avatar {
+    width: 136px;
+    height: 136px;
+    margin-top: -3rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .custom_field input {
+    height: 45px;
+  }
+
+  .form {
+    row-gap: 3rem !important;
+  }
+
+  h4 {
+    font-size: 30px !important;
+  }
+
+  .banner {
+    min-height: 420px;
+  }
+
+  .avatar {
+    width: 130px;
+    height: 130px;
+    margin-top: -3rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .form {
+    width: 75% !important;
+    row-gap: 2rem !important;
+    grid-template-areas:
+      "username"
+      "firstname"
+      "lastname"
+      "birthday"
+      "address"
+      "phoneNumber" !important;
+  }
+
+  .button_container {
+    display: flex;
+    width: 75%;
+    place-content: flex-end;
+  }
+
+  h4 {
+    font-size: 28px !important;
+  }
+
+  .banner {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .custom_field input {
+    height: 35px;
+    font-size: 15px !important;
+  }
+
+  .form {
+    row-gap: 2rem !important;
+  }
+
+  label {
+    font-size: 17px !important;
+  }
+
+  h4 {
+    font-size: 27px !important;
+  }
+
+  .banner {
+    min-height: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .custom_field input {
+    height: 30px;
+    font-size: 16px !important;
+  }
+
+  .form {
+    row-gap: 1rem !important;
+  }
+
+  label {
+    font-size: 15px !important;
+  }
+
+  h4 {
+    font-size: 25px !important;
+  }
+
+  .banner {
+    min-height: 300px;
+  }
+
+  .avatar {
+    width: 126px;
+    height: 126px;
+    margin-top: -3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .custom_field input {
+    height: 25px;
+    font-size: 14px !important;
+  }
+
+  .banner {
+    min-height: 250px;
+  }
+
+  h4 {
+    font-size: 23px !important;
+    margin-left: 2% !important;
+  }
+
+  .avatar {
+    width: 120px;
+    height: 120px;
+    margin-top: -3rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .css-oqchhx-MuiContainer-root {
+    padding-right: 0 !important;
+  }
+}
+
+@media (max-width: 1220px) {
+  .css-oqchhx-MuiContainer-root {
+    padding-right: 0 !important;
+    padding-left: 34px !important;
+  }
+}
+
+.form {
+  display: grid;
+  grid-template-areas:
+    "username firstname"
+    "lastname birthday"
+    "address phoneNumber";
+  row-gap: 5rem;
+  column-gap: 12rem;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+
+  &-control {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+
+    &:nth-child(1) {
+      grid-area: username;
+    }
+
+    &:nth-child(2) {
+      grid-area: firstname;
+    }
+
+    &:nth-child(3) {
+      grid-area: lastname;
+    }
+
+    &:nth-child(4) {
+      grid-area: birthday;
+    }
+
+    &:nth-child(5) {
+      grid-area: address;
+    }
+
+    &:nth-child(6) {
+      grid-area: phoneNumber;
+    }
+  }
+}
+
+.button {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  float: right;
+  padding: 6px 16px;
+  background-color: #4a1b5f;
+
+  &:hover {
+    background-color: #4a1b5f;
+  }
+}
+.button2 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  padding: 6px 16px;
+  background-color: #d3000099;
+
+  &:hover {
+    background-color: #f72f2f99;
+  }
+}
+
+.avatar_container {
+  padding-bottom: 14px;
+  margin-top: -7%;
+}

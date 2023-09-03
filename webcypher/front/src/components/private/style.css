@@ -1,0 +1,128 @@
+.css-koop7j {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding-bottom: 0 !important;
+  background: #271932;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  padding-bottom: 0% !important;
+  color: #fff;
+  min-height: 100% !important;
+}
+
+.main-column-conv {
+  flex: 1;
+  background-color: #211625;
+  color: #fff;
+  min-height: 100% !important;
+}
+
+.main-column-conv .header {
+  display: flex;
+  height: auto;
+  margin-left: 8%;
+  flex-direction: column;
+  margin-bottom: 8%;
+  margin-top: 8%;
+}
+
+.main-column-conv .header .profile {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+  margin-left: 6%;
+  margin-top: auto;
+  width: auto;
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  text-align: left;
+}
+
+.main-column-conv .header .profile .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+  margin-top: auto;
+}
+
+.text h3 {
+  display: inherit;
+  inline-size: max-content;
+}
+
+.searchBar {
+  padding: 1rem 1rem;
+  display: flex;
+}
+
+.searchBar input {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  height: min-content;
+  background-color: rgb(49, 33, 61);
+  width: 40ch;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.divider {
+  background-color: #31213d;
+  height: 0.3%;
+}
+
+.main-column-conv .list {
+  height: 75vh;
+  display: block;
+  color: #fff;
+  overflow-y: scroll;
+}
+
+.list .item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+  margin-left: 6%;
+  margin-top: auto;
+  width: auto;
+  color: #fff;
+}
+
+.list .item .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+  margin-top: auto;
+  color: #fff;
+  width: -webkit-fill-available;
+}
+
+.main-container .chatscreen {
+  flex: 3;
+  background-color: #271932;
+  min-height: 100% !important;
+}
+
+.chatscreen .no-current {
+  display: flex;
+  flex: 1;
+  background-color: #271932;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  min-height: 100% !important;
+}
+
+.no-current h1 {
+  color: #fff;
+  padding: 5%
+}
